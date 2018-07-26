@@ -21,6 +21,7 @@ impl<T> Entity<T> {
 }
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
 pub struct Person {
     name: String,
     email: String,
