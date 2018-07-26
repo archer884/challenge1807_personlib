@@ -6,7 +6,6 @@ use rand::{
 };
 
 #[derive(Clone, Debug, Serialize, Deserialize)]
-#[serde(rename_all = "camelCase")]
 pub struct Entity<T> {
     id: u64,
 
