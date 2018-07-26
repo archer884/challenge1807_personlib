@@ -1,0 +1,10 @@
+[package]
+name = "person"
+version = "0.1.0"
+authors = ["J/A <jarcher@balglobal.com>"]
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.5"
+serde = "1.0"
+serde_derive = "1.0"
